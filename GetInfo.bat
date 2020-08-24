@@ -1,2 +1,2 @@
 @echo off
-chcp 65001 | systeminfo > vuln.txt
+chcp 65001 | systeminfo > info.txt
