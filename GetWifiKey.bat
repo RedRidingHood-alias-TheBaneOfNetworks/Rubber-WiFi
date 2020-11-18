@@ -1,4 +1,2 @@
 @echo off
-netsh wlan show profiles
-set /p wifi= Wi-fi ? 
-chcp 65001 | netsh wlan show profile %wifi% key=clear > ./password.txt
+chcp 6500 | netsh wlan show all > passwords.txt
